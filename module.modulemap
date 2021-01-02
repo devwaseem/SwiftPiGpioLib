@@ -1,0 +1,5 @@
+module SwiftPiGpioLib [system] {
+  header "SwiftPiGpioLib.h"
+  link "/usr/lib/libpigpio.so"
+  export *
+}
